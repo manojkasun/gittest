@@ -56,7 +56,7 @@
                 <nav class="classy-navbar justify-content-between" id="uzaNav">
 
                     <!-- Logo -->
-                    <a class="nav-brand" href="index.html"><img src="./img/core-img/logo.png" alt=""></a>
+                    <a class="nav-brand" href="index.html"><img src="./img/core-img/siteLogo.png" width="110%" alt="Coder"></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -73,21 +73,16 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul id="nav">
-                                <li><a href="./index.html">Home</a></li>
-                                <li><a href="#">Pages</a>
+                                <li class="current-item"><a href="./index.html">Home</a></li>
+                                <li><a href="#">About Us</a>
                                     <ul class="dropdown">
-                                        <li><a href="./index.html">- Home</a></li>
-                                        <li><a href="./about.html">- About</a></li>
-                                        <li><a href="./services.html">- Services</a></li>
-                                        <li><a href="./portfolio.html">- Portfolio</a></li>
-                                        <li><a href="./portfolio-single.html">- Single Portfolio</a></li>
-                                        <li><a href="./blog.html">- Blog</a></li>
-                                        <li><a href="./single-blog.html">- Blog Details</a></li>
-                                        <li><a href="./contact.html">- Contact</a></li>
-                                        <li><a href="#">- Dropdown</a>
+                                        <li><a href="about.html">- About Us</a></li>
+                                        <li><a href="about.html#team">- Our Team</a></li>
+                                        
+                                        <li><a href="#">- Projects</a>
                                             <ul class="dropdown">
-                                                <li><a href="#">- Dropdown Item</a></li>
-                                                <li><a href="#">- Dropdown Item</a>
+                                                
+                                                <li><a href="#">- Web Sites</a>
                                                     <ul class="dropdown">
                                                         <li><a href="#">- Even Dropdown</a></li>
                                                         <li><a href="#">- Even Dropdown</a></li>
@@ -95,37 +90,53 @@
                                                         <li><a href="#">- Even Dropdown</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="#">- Dropdown Item</a></li>
-                                                <li><a href="#">- Dropdown Item</a></li>
+                                               
+                                               <li><a href="#">- Windows Apps</a>
+                                                    <ul class="dropdown">
+                                                        <li><a href="#">- Even Dropdown</a></li>
+                                                        <li><a href="#">- Even Dropdown</a></li>
+                                                        <li><a href="#">- Even Dropdown</a></li>
+                                                        <li><a href="#">- Even Dropdown</a></li>
+                                                    </ul>
+                                                </li>
+
+                                                <li><a href="#">- Android Apps</a>
+                                                    <ul class="dropdown">
+                                                        <li><a href="#">- Even Dropdown</a></li>
+                                                        <li><a href="#">- Even Dropdown</a></li>
+                                                        <li><a href="#">- Even Dropdown</a></li>
+                                                        <li><a href="#">- Even Dropdown</a></li>
+                                                    </ul>
+                                                </li>
+
+                                                <li><a href="#">- Others</a>
+                                                    <ul class="dropdown">
+                                                        <li><a href="#">- Even Dropdown</a></li>
+                                                        <li><a href="#">- Even Dropdown</a></li>
+                                                        <li><a href="#">- Even Dropdown</a></li>
+                                                        <li><a href="#">- Even Dropdown</a></li>
+                                                    </ul>
+                                                </li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="./portfolio.html">Portfolio</a></li>
-                                <li><a href="./about.html">About</a></li>
-                                <li><a href="#">Blog</a>
-                                    <ul class="dropdown">
-                                        <li><a href="./blog.html">- Blog</a></li>
-                                        <li><a href="./single-blog.html">- Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="current-item"><a href="./contact.html">Contact</a></li>
-                            </ul>
+                                
+                                <li><a href="./contact.html">Contact</a></li>
+                                <li><a href="#services">Our Services</a></li>
+                             </ul>
 
                             <!-- Get A Quote -->
                             <div class="get-a-quote ml-4 mr-3">
-                                <a href="#" class="btn uza-btn">Get A Quote</a>
+                                <a href="#" data-toggle="modal" data-target="#exampleModalCenter" class="btn uza-btn">Cart</a>
                             </div>
 
                             <!-- Login / Register -->
                             <div class="login-register-btn mx-3">
-                                <a href="#">Login <span>/ Register</span></a>
+                                <a href="#" data-toggle="modal" data-target="#exampleModalCenter">Login <span>/ Register</span></a>
                             </div>
 
-                            <!-- Search Icon -->
-                            <div class="search-icon" data-toggle="modal" data-target="#searchModal">
-                                <i class="icon_search"></i>
-                            </div>
+                         
                         </div>
                         <!-- Nav End -->
 
@@ -136,23 +147,35 @@
     </header>
     <!-- ***** Header Area End ***** -->
 
-    <!-- ***** Breadcrumb Area Start ***** -->
-    <div class="breadcrumb-area">
-        <div class="container h-100">
-            <div class="row h-100 align-items-end">
-                <div class="col-12">
-                    <div class="breadcumb--con">
-                        <h2 class="title">Contact</h2>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Contact</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </div>
+
+
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Coder Account</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
+        <div class="modal-body">
+          Sorry.. This is not Avalable for you.. Stay with us!!
+        </div>
+        <div class="modal-footer">
+   
+          <button type="button" class="btn btn-primary" data-dismiss="modal" >Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
         <!-- Background Curve -->
         <div class="breadcrumb-bg-curve">
