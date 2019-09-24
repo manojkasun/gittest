@@ -1787,6 +1787,11 @@ input:focus {
     z-index: -1;
     font-size: 60px;
     color: #eaeaea; }
+    td
+    {
+      margin: 10px;
+      
+    }
 
 /* :: 18.0 Team CSS */
 .single-team-slide {
@@ -2080,5 +2085,6 @@ input:focus {
   .uza-contact-form textarea.form-control {
     height: 110px;
     padding: 20px; }
+
 
 /*# sourceMappingURL=style.css.map */
