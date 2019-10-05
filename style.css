@@ -1213,7 +1213,7 @@ input:focus {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    content: '';
+    content: 'car.mkv';
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
@@ -1787,11 +1787,7 @@ input:focus {
     z-index: -1;
     font-size: 60px;
     color: #eaeaea; }
-    td
-    {
-      margin: 10px;
-      
-    }
+    
 
 /* :: 18.0 Team CSS */
 .single-team-slide {
